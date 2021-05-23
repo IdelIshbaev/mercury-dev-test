@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './DayWeather.scss'
 function DayWeather() {
   return (
-    <div>
+    <div className="day-weather">
 		week
     </div>
   );
