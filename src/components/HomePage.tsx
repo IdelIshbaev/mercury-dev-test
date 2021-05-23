@@ -1,7 +1,7 @@
 import React from 'react';
 import './HomePage.scss'
-import DayWeather from './widgets/DayWeather'
 import WeekWeather from './widgets/WeekWeather'
+import DayWeather from './widgets/DayWeather'
 function HomePage() {
   return (
 	  <div className="home-page home-page--background">
@@ -10,8 +10,8 @@ function HomePage() {
 			  	<span className="home-page__header_second">forecast</span>
 		  </h1>
 		  <div className="home-page__weather">
-		  		<DayWeather />
 				<WeekWeather />
+		  		<DayWeather />
 			</div>
     </div>
   );
