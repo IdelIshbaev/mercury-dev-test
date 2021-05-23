@@ -12,7 +12,7 @@ function DayWeather() {
   const [selectedOption, setSelectedOption] = useState<any>({});
 
   return (
-    <div className="weather">
+    <div className="weather weather--day-mobile">
       <h1 className="weather__header">
         Forecast for a Date in the Past
       </h1>
@@ -29,7 +29,12 @@ function DayWeather() {
           // options={options}
           className="weather__select"
           />
+      </div>
+      <div className="weather__content">
+        <div className="weather__content__temp-icon">
+          <p className="weather__content__temp-icon__text">Fill in all the fields and the weather will be displayed</p>
         </div>
+      </div>
     </div>
   );
   

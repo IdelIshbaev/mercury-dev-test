@@ -42,6 +42,29 @@
 			flex-flow: wrap;
 
 		}
+		&__content{
+			display: flex;
+			justify-content: center;
+			margin-top: 84px;
+			&__temp-icon{
+				background-image: url('../../assets/Placeholder/Academy-Weather-bg160.png');
+				width: 160px;
+				height: 160px;
+				&__text{
+					margin-top: 180px;
+					margin-left: -100px;
+					width: 438px;
+					height: 24px;
+
+					font-family: Ubuntu;
+					font-style: normal;
+					font-weight: bold;
+					font-size: 16px;
+					line-height: 24px;
+					color: #8083A4;
+				}
+			}
+		}
 	}
 // }
 @media only screen and (max-width: 600px) {
@@ -54,6 +77,9 @@
 		&__header{
 			margin-top: 32px;
 			margin-left: 24px;
+		}
+		&--day-mobile{
+			height: 576px;
 		}
 		&__select{
 			width: 252px;
@@ -77,6 +103,27 @@
 			justify-content: space-between;
 			flex-flow: wrap;
 
+		}
+		&__content{
+			margin-top: 33px;
+			&__temp-icon{
+				background-image: url('../../assets/Placeholder/Academy-Weather-bg160.png');
+				width: 160px;
+				height: 160px;
+				&__text{
+					margin-top: 180px;
+					margin-left: -5px;
+					width: 240px;
+					height: 24px;
+
+					font-family: Ubuntu;
+					font-style: normal;
+					font-weight: bold;
+					font-size: 16px;
+					line-height: 24px;
+					color: #8083A4;
+				}
+			}
 		}
 	}
 }
