@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mercury-dev-test/static/css/main.4937e307.chunk.css",
+    "main.js": "/mercury-dev-test/static/js/main.0b68ac5c.chunk.js",
+    "main.js.map": "/mercury-dev-test/static/js/main.0b68ac5c.chunk.js.map",
+    "runtime-main.js": "/mercury-dev-test/static/js/runtime-main.85ffb80d.js",
+    "runtime-main.js.map": "/mercury-dev-test/static/js/runtime-main.85ffb80d.js.map",
+    "static/js/2.2a142f25.chunk.js": "/mercury-dev-test/static/js/2.2a142f25.chunk.js",
+    "static/js/2.2a142f25.chunk.js.map": "/mercury-dev-test/static/js/2.2a142f25.chunk.js.map",
+    "static/js/3.a4546002.chunk.js": "/mercury-dev-test/static/js/3.a4546002.chunk.js",
+    "static/js/3.a4546002.chunk.js.map": "/mercury-dev-test/static/js/3.a4546002.chunk.js.map",
+    "index.html": "/mercury-dev-test/index.html",
+    "static/css/main.4937e307.chunk.css.map": "/mercury-dev-test/static/css/main.4937e307.chunk.css.map",
+    "static/js/2.2a142f25.chunk.js.LICENSE.txt": "/mercury-dev-test/static/js/2.2a142f25.chunk.js.LICENSE.txt",
+    "static/media/HomePage.scss": "/mercury-dev-test/static/media/Academy-Weather forecast-Bg-up.1b9e0722.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85ffb80d.js",
+    "static/js/2.2a142f25.chunk.js",
+    "static/css/main.4937e307.chunk.css",
+    "static/js/main.0b68ac5c.chunk.js"
+  ]
+}
