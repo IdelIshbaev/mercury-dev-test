@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mercury-dev-test/static/css/main.a2e9f294.chunk.css",
-    "main.js": "/mercury-dev-test/static/js/main.805cf010.chunk.js",
-    "main.js.map": "/mercury-dev-test/static/js/main.805cf010.chunk.js.map",
+    "main.css": "/mercury-dev-test/static/css/main.da229013.chunk.css",
+    "main.js": "/mercury-dev-test/static/js/main.c44092f4.chunk.js",
+    "main.js.map": "/mercury-dev-test/static/js/main.c44092f4.chunk.js.map",
     "runtime-main.js": "/mercury-dev-test/static/js/runtime-main.1ef981e3.js",
     "runtime-main.js.map": "/mercury-dev-test/static/js/runtime-main.1ef981e3.js.map",
     "static/js/2.a5be8220.chunk.js": "/mercury-dev-test/static/js/2.a5be8220.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.c4924f7d.chunk.js": "/mercury-dev-test/static/js/3.c4924f7d.chunk.js",
     "static/js/3.c4924f7d.chunk.js.map": "/mercury-dev-test/static/js/3.c4924f7d.chunk.js.map",
     "index.html": "/mercury-dev-test/index.html",
-    "static/css/main.a2e9f294.chunk.css.map": "/mercury-dev-test/static/css/main.a2e9f294.chunk.css.map",
+    "static/css/main.da229013.chunk.css.map": "/mercury-dev-test/static/css/main.da229013.chunk.css.map",
     "static/js/2.a5be8220.chunk.js.LICENSE.txt": "/mercury-dev-test/static/js/2.a5be8220.chunk.js.LICENSE.txt",
     "static/media/HomePage.scss": "/mercury-dev-test/static/media/Academy-Weather forecast-Bg-up.1b9e0722.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1ef981e3.js",
     "static/js/2.a5be8220.chunk.js",
-    "static/css/main.a2e9f294.chunk.css",
-    "static/js/main.805cf010.chunk.js"
+    "static/css/main.da229013.chunk.css",
+    "static/js/main.c44092f4.chunk.js"
   ]
 }
