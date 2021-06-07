@@ -79,10 +79,35 @@
 					width: 160px;
 					height: 160px;
 				}
-				&__date{
-					justify-content: start;
-					align-items: flex-start;
-				}
+			}
+			&__date{
+				margin: 0;
+				margin-bottom: -40px;
+				margin-left: 20px;
+				width: 90px;
+				height: 24px;
+
+				font-family: Ubuntu;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 16px;
+				line-height: 24px;
+				color: #FFFFFF;
+			}
+			&__temp{
+				margin-top: -40px;
+				margin-left: 450px;
+				position: absolute;
+				width: 67px;
+				height: 32px;
+
+				font-family: Ubuntu;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 32px;
+				line-height: 32px;
+
+				color: #FFFFFF;
 			}
 		}
 	}

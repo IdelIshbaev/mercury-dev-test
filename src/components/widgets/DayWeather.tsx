@@ -7,8 +7,7 @@ interface ISel {
   label: String
 }
 function DayWeather() {
-  // const defaultSelectedOption:any = { value: '', label: '' }
-  // const defaultSelectedDate = ''
+
   const options = [
     { value: 'sanktpetersburg', label: 'Sankt Petersburg' },
     { value: 'saratov', label: 'Saratov' },
@@ -82,16 +81,6 @@ function DayWeather() {
     }
   }, [selectedOption, selectedDate]);
 
-  useEffect(() => {
-    // console.log(selectedDate.valueAsNumber)
-    // if (selectedDate != null) {
-    //   console.log(selectedDate)
-    // }
-    // let currentTimestamp = Date.now()
-    // console.log(currentTimestamp); // get current timestamp
-    // let date = new Intl.DateTimeFormat('en-US', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' }).format(currentTimestamp)
-    // console.log(date)
-  }, [selectedDate])
 
 
   return (
@@ -110,7 +99,6 @@ function DayWeather() {
           placeholder="Select date"
           onChange={e => setSelectedDate(e.target)}
           type="date"
-          // options={options}
           className="weather__select"
           />
       </div>
@@ -120,11 +108,13 @@ function DayWeather() {
           <div className="weather__content__temp-icon">
             <p className="weather__content__temp-icon__text">Fill in all the fields and the weather will be displayed</p>
           </div> :
-          <div className="weather__content__main-icon ">
-            <p className="weather__content__main-icon__date">{selectedDate.value}</p>
-            
-            <img  className="weather__content__main-icon--icon" src={"http://openweathermap.org/img/wn/" + weekForecast.current.weather[0].icon + "@2x.png"} />
+          <div>
+            <p className="weather__content__date">{selectedDate.value}</p>
+            <div className="weather__content__main-icon ">
+              <img  className="weather__content__main-icon--icon" src={"http://openweathermap.org/img/wn/" + weekForecast.current.weather[0].icon + "@2x.png"} />
             </div>
+            <p className="weather__content__temp ">+{Number((weekForecast.current.temp-273).toFixed(0))}&#186;</p>
+          </div>
         }
       </div>
     </div>
